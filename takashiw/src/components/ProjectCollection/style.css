@@ -1,0 +1,10 @@
+.projectContainer {
+  display: block;
+}
+
+.container {
+  display: table-cell;
+  width: 33.33%;
+  /*padding: 10px;*/
+  float: left;
+}

@@ -4,13 +4,9 @@ body {
   font-family: sans-serif;
 }
 
-.projectContainer {
-  display: block;
-}
-
-.container {
-  display: table-cell;
-  width: 33.33%;
-  /*padding: 10px;*/
-  float: left;
+h2 {
+  font-size: 18px;
+  margin: 0 0 10px 10px;
+  text-align: left;
+  color: #383838;
 }

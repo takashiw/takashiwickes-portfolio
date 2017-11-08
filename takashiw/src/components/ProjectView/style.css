@@ -3,6 +3,7 @@
   height: 240px;
   border-radius: 8px;
   margin: 10px;
+  /*transition: box-shadow 0.4s;*/
 }
 
 img {
@@ -24,16 +25,21 @@ img {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 18px;
   color: white;
   margin: 0 0 5px 0;
 }
 
 p {
   margin: 0;
-  font-size: 18px;
+  font-size: 14px;
   color: white;
   opacity: 0.75;
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .project:hover .titleContainer {
@@ -41,6 +47,6 @@ p {
 }
 
 .project:hover img {
-  transform: translateY(-39px);
+  transform: translateY(-45px);
   transition: transform 0.6s;
 }
