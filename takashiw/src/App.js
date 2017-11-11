@@ -1,18 +1,23 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
-import Project from './components/ProjectView/ProjectView'
+import { Switch, Route } from 'react-router-dom'
 import './App.css'
-import projects from './Projects.json'
-import ProjectCollection from './components/ProjectCollection/ProjectCollection'
+import Home from './components/Home/Home'
+import Theia from './components/ProjectDetailPage/project-Theia'
+
+import './index.css'
 
 class App extends Component {
 
+
+
   render() {
     return (
+
       <div className="App">
-        <h2>Hi there, my name is Takashi Wickes</h2>
-        <h2>and here is some of what I have built</h2>
-        <ProjectCollection />
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route path='/theia' component={Theia}/>
+        </Switch>
       </div>
     )
   }

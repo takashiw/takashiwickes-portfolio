@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import s from './style.css'
+import './style.css'
 import Project from '../ProjectView/ProjectView'
 import projects from '../../Projects.json'
 
@@ -30,7 +30,6 @@ class ProjectCollection extends Component {
       var projectData = projects[i]
       var containerStyle = this.getContainerStyle(false, projectData.columns)
 
-      var isRightmost = false
       var col = projectData.columns
       var row = projectData.rows
 
@@ -38,10 +37,9 @@ class ProjectCollection extends Component {
 
       for(var j = 0; j < col; j++){
         for(var k = 0; k < rowOccupied.length; k++){
-            if(rowOccupied[k] == 0){
+            if(rowOccupied[k] === 0){
               rowOccupied[k] = row
-              if(k == rowOccupied.length - 1){
-                isRightmost = true
+              if(k === rowOccupied.length - 1){
                 containerStyle = this.getContainerStyle(true, projectData.columns)
                 rowOccupied = this.decrement(rowOccupied)
               }
@@ -51,7 +49,7 @@ class ProjectCollection extends Component {
       }
 
       rows.push(
-        <div className="container" style={containerStyle}>
+        <div className="container" style={containerStyle} key={projectData.title}>
           <Project
             title={projectData.title}
             subtitle={projectData.subtitle}

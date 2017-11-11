@@ -42,6 +42,7 @@
     "subtitle" : "A new mobile eye exam built in 36 hour",
     "color" : "#FEC072",
     "thumbnail" : "Theia.png",
+    "url" : "/theia",
     "columns" : 1, "rows" : 1
   },
   {
