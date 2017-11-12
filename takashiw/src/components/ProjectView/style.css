@@ -51,3 +51,25 @@ a {
   transform: translateY(-45px);
   transition: transform 0.6s;
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .project {
+      height: 240px !important;
+  }
+
+  .titleContainer {
+    transform: translateY(-100%);
+  }
+
+  img {
+    transform: translateY(-40px);
+  }
+
+  main {
+    margin: 20px;
+  }
+}

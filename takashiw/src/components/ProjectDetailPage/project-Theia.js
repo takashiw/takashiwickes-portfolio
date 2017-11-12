@@ -45,6 +45,48 @@ class Theia extends Component {
           <p className="subtitle">Kit - Instruction Template (Colored)</p>
           <img src={process.env.PUBLIC_URL + '/images/projects/theia/instruction.png'} />
           <p className="subtitle">Kit - Instruction Template (Colored)</p>
+          <img className="halfImage" src={process.env.PUBLIC_URL + '/images/projects/theia/Loading.gif'} />
+          <img className="halfImage" src={process.env.PUBLIC_URL + '/images/projects/theia/Housing-Animation.gif'} />
+          <p className="subtitle">Kit - Animated (left: Rotation , right: Housing)</p>
+          <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-stage.png'} />
+          <p className="subtitle">Kit - Hackathon Demo Version</p>
+          <hr/>
+          <h2>iOS Application</h2>
+          <p>As the target area was third world countries, we had these factors to consider:</p>
+          <ul>
+            <li>Ease of Use</li>
+            <li>Limited Internet Access</li>
+            <li>International Languages</li>
+          </ul>
+          <p>But with these factors, we wanted to still strive for high accuracy, so we had to do the research.</p>
+          <h2>Making an Actual Eye Exam</h2>
+          <p>As opposed to many other mobile eye exams, which mainly focus on diagnosing cataracts and symptoms of blindness, we were more concerned with myopia and astigmatism—commonplace eye ailments which prescription lens help with.<br/>
+             So with six hours of research in optometry and prescription eye exams, we invented a test that worked on a mobile screen, requiring only 20 inches of space from the phone screen to the eyes.</p>
+          <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-scaling.png'} />
+          <p className="subtitle">Scaling from Snellen to Screen | Exam Algortihm</p>
+          <p>In addition, we decided to use the Landolt test rather than the common Snellen chart. This allows for the test to work on an international scale.</p>
+          <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_charts.png'} />
+          <p className="subtitle">left: Snellen ; right: Landolt</p>
+          <h2>App Flow</h2>
+          <p>We wanted the application to be a simple path from start to finish. No additional bells and whistles. The use case which convinced this was a community center with a single kit that could be easily passed around from person to person with ease. Therefore, we utilized a uni-directional application flow</p>
+          <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_workflow.png'} />
+          <p className="subtitle">the application workflow</p>
+          <h2>Final Screens</h2>
+          <div className="appScreens">
+            <img className="halfImage" src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-1.png'} />
+            <img className="halfImage" src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-2.png'} />
+            <p className="subtitle">Scr. 1 - Splash (left) ; Scr. 2 - Eligibility (right)</p>
+            <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-3.png'} />
+            <p className="subtitle">Scr. 3 - Insert Housing Instr.</p>
+            <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-4.png'} />
+            <p className="subtitle">Scr. 4 - Exam Explanation</p>
+            <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-5.png'} />
+            <p className="subtitle">Scr. 4 - Eye Housing Instr.</p>
+            <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-6.png'} />
+            <p className="subtitle">Scr. 5 - Eye Exam</p>
+            <img src={process.env.PUBLIC_URL + '/images/projects/theia/theia-portfolio_app-7.png'} />
+            <p className="subtitle">Scr. 6 - Exam Result</p>
+          </div>
         </div>
       </div>
     )

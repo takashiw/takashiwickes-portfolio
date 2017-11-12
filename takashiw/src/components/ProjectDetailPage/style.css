@@ -5,13 +5,12 @@ body {
 }
 
 .header, .main {
-  padding: 40px 300px;
+  padding: 40px 22%;
   text-align: left;
 }
 
 .main {
   margin: auto;
-  width: 700px;
 }
 
 .fa {
@@ -34,6 +33,18 @@ h1 {
 
 .main img {
   margin-top: 30px;
+  /*background-color:#f2f2f2;*/
+}
+
+.main .halfImage {
+  width: calc(50% - 24px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.appScreens img {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
 }
 
 .hero {
@@ -82,4 +93,25 @@ p {
   text-align: center;
   font-family: sans-serif;
   font-size: 14px;
+  margin-top: 10px;
+}
+
+hr {
+  margin: 60px;
+  opacity: 0.2;
+}
+
+@media (max-width: 600px) {
+  .header, .main {
+    padding: 40px 30px;
+  }
+
+  .lists {
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
 }
