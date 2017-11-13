@@ -35,6 +35,7 @@
     "subtitle" : "A VR Experience to show why elementary schoolers need more glasses!",
     "color" : "#3A935A",
     "thumbnail" : "VRGlasses.png",
+    "url" : "/vr-myopic",
     "columns" : 1, "rows" : 1
   },
   {
@@ -64,6 +65,7 @@
     "subtitle" : "Mobile prescription tracker built in 36 hour",
     "color" : "#88BEFF",
     "thumbnail" : "Medidock.png",
+    "url" : "/medidock",
     "columns" : 1, "rows" : 1
   },
   {
